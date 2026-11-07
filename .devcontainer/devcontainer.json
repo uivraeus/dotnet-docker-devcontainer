@@ -15,6 +15,10 @@
 		"vscode": {
 			"extensions": [
 				"anthropic.claude-code",
+				// C# Dev Kit (Testing view, coverage, C# Project Details) on top of the C# extension from the dotnet feature.
+				// Visual Studio license terms: free for individuals, education, open source and small teams;
+				// larger organizations need a Visual Studio subscription. See README.md.
+				"ms-dotnettools.csdevkit",
 				//"ms-azuretools.vscode-containers"
 			]
 		}
