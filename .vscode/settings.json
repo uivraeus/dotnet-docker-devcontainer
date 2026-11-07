@@ -1,0 +1,4 @@
+{
+  // Repos cloned into projects/<name> sit two levels below the root; the default scan depth (1) misses them.
+  "git.repositoryScanMaxDepth": 2
+}
