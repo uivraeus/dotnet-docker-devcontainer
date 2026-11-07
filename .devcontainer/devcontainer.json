@@ -21,6 +21,7 @@
 	},
 	"mounts": [
 		"source=aws-workspaces-claude-home,target=/home/vscode/.claude,type=volume", // Retain claude data accross container rebuilds
+		"source=${localWorkspaceFolder}/.devcontainer/daemon.json,target=/etc/docker/daemon.json,type=bind,readonly",
 	],
 	"containerEnv": {
 		"CLAUDE_CONFIG_DIR": "/home/vscode/.claude", // Make ~/.claude.json end up in persistent ~/.claude/ mount
